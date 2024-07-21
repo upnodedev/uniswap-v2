@@ -14,10 +14,13 @@ i18next
     react: {
       useSuspense: true
     },
+    lng: 'en',
     fallbackLng: 'en',
     preload: ['en'],
     keySeparator: false,
     interpolation: { escapeValue: false }
   })
+
+console.log('i18n init')
 
 export default i18next

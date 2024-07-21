@@ -66,7 +66,7 @@ function useSwapCallArguments(
       return []
     }
 
-    const swapMethods = []
+    const swapMethods: any[] = []
 
     switch (tradeVersion) {
       case Version.v2:
